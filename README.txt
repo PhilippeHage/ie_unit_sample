@@ -1,5 +1,15 @@
 # IE NLP Utils
 
-This is my cool project.
+Works on Python 3 under any operative system.
 
-Works on Python 3.7 + Linux.
+To install locally:
+
+```
+$ pip install --editable .
+```
+
+To generate source distribution and wheels:
+
+```
+$ python setup.py sdist bdist_wheel
+```
